@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8" />
         <title>Atlas of Canada Polar Wall Map</title>
@@ -25,5 +25,5 @@
         <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/NCR_RCN_A/MapServer/tile/{z}/{y}/{x}/" />
       </extent>
     </body>
-</mapml>
+</mapml->
 

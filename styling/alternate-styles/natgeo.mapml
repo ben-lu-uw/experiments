@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Basemap with Alternate Styles</title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
@@ -16,4 +16,4 @@
       <link rel="tile" tref="https://server.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer/WMTS/tile/1.0.0/NatGeo_World_Map/default/default028mm/{TileMatrix}/{TileRow}/{TileCol}.jpg"/>
     </extent>
   </body>
-</mapml>
+</mapml->

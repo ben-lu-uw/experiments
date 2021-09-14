@@ -1,4 +1,4 @@
-<mapml lang="en">
+<mapml- lang="en">
   <head>
     <title>The Man With Two Hats</title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
@@ -56,4 +56,4 @@
     </feature>
 
   </body>
-</mapml>
+</mapml->

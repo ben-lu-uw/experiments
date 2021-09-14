@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Labelled Satellite Imagery</title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
@@ -17,4 +17,4 @@
       <link rel="tile" tref="https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/tile/1.0.0/Reference_World_Boundaries_and_Places/default/default028mm/{TileMatrix}/{TileRow}/{TileCol}.png"/>
     </extent>
   </body>
-</mapml>
+</mapml->

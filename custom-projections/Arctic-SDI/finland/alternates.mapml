@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
   <head xmlns:html="http://www.w3.org/1999/xhtml">
     <title>Arctic SDI of Finland</title>
     <meta charset="UTF-8"/>
@@ -29,4 +29,4 @@
       <link rel="tile" tref="http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/{TileMatrix}/{TileRow}/{TileCol}.png"/>
     </extent>
   </body>
-</mapml>
+</mapml->

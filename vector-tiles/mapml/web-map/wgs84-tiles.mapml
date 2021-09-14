@@ -1,4 +1,4 @@
-<mapml>
+<mapml- 
     <head>
       <title>World Countries - WGS84</title>
       <meta charset="utf-8" />
@@ -13,4 +13,4 @@
         <link rel='tile' type='text/mapml' title='Tiles for ne_10m_admin_0_countries (as MapML)' tref='https://maps.ecere.com/geoapi/collections/NaturalEarth/cultural/ne_10m_admin_0_countries/tiles/WorldCRS84Quad/{zoomLevel}/{row}/{col}.mapml'/>
       </extent>
     </body>
-</mapml>
+</mapml->

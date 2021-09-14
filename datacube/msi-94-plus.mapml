@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Permanent snow and ice (prob. 94% or more) WMS GetMap</title>
     <meta charset="utf-8"/>
@@ -43,5 +43,5 @@
       <link tref="legend_query_msi-94-plus.mapml?BBOX={xmin},{ymin},{xmax},{ymax}&amp;TIME={time}" rel="query"/>
     </extent>
   </body>
-</mapml>
+</mapml->
 

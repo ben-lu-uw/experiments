@@ -1,4 +1,4 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8" />
         <title>Canada's Arctic SDI Contribution</title>
@@ -28,4 +28,4 @@
           <link rel="tile" tref="http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3573/{TileMatrix}/{TileRow}/{TileCol}.png"/>
         </extent>
     </body>
-</mapml>
+</mapml->
