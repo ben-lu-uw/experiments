@@ -6,7 +6,7 @@
       <xsl:apply-templates select="node() | @*"/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template  match="h:head/node()[position()=last()]" xpath-default-namespace="http://www.w3.org/1999/xhtml" >
+  <xsl:template  match="h:map-head/node()[position()=last()]" xpath-default-namespace="http://www.w3.org/1999/xhtml" >
     <xsl:copy>
       <xsl:apply-templates select="node() | @*"/>
     </xsl:copy>

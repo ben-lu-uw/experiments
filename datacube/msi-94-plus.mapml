@@ -1,12 +1,12 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <map-head>
     <title>Permanent snow and ice (prob. 94% or more) WMS GetMap</title>
     <meta charset="utf-8"/>
     <link href="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0" rel="license" title="Open Government License"/>
     <link rel="legend" href="https://datacube.services.geo.ca/assets/legend/legend_msi_binary.png" sizes="150x33" height="33" width="150" title="legend" type="image/png" />
     <link rel="self style" href="msi-94-plus.mapml" title="WMS GetMap" />
     <link rel="style" href="msi-94-plus-tiles.mapml" title="Tiled WMS GetMap" />
-  </head>
+  </map-head>
   <body>
     <extent units="CBMTILE">
       <input name="z" type="zoom" value="25" min="4" max="25"/>

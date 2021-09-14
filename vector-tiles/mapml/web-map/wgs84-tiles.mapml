@@ -1,10 +1,10 @@
 <mapml- 
-    <head>
+    <map-head>
       <title>World Countries - WGS84</title>
       <meta charset="utf-8" />
       <meta name="zoom" content="min=0,max=6" />
       <link rel="stylesheet" href="../vector-tile.css" />
-    </head>
+    </map-head>
     <body>
       <extent units="WGS84">
         <input name="zoomLevel" type="zoom" min="0" max="6" value="0"/>

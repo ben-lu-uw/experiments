@@ -1,12 +1,12 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <map-head>
     <title>Probability of the annual minimum snow and ice presence WMS GetMap</title>
     <meta charset="utf-8"/>
     <link href="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0" rel="license" title="Open Government License"/>
     <link rel="legend" href="https://datacube.services.geo.ca/assets/legend/legend_msi_color.png" sizes="150x33" height="33" width="150" title="legend" type="image/png" />
     <link rel="self style" href="msi.mapml" title="WMS GetMap" />
     <link rel="style" href="msi-tiles.mapml" title="Tiled WMS GetMap" />
-  </head>
+  </map-head>
   <body>
     <extent units="CBMTILE">
       <input name="z" type="zoom" value="25" min="4" max="25"/>

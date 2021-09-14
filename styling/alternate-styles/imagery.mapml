@@ -1,5 +1,5 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <map-head>
     <title>Satellite</title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
     <meta charset="utf-8"/>
@@ -7,7 +7,7 @@
     <link rel="style" title="National Geographic Basemap" href="natgeo.mapml"/>
     <link rel="style" title="Satellite Imagery with place names" href="labelled_imagery.mapml"/>
     <link rel="self style" title="Satellite Imagery" href="imagery.mapml"/>
-  </head>
+  </map-head>
   <body>
     <extent units="OSMTILE">
       <input name="TileMatrix" type="zoom" value="18" min="0" max="18"/>

@@ -1,5 +1,5 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+    <map-head>
         <meta charset="utf-8" />
         <title>Atlas of Canada Polar Wall Map</title>
         <meta content="text/mapml" http-equiv="Content-Type" />
@@ -7,7 +7,7 @@
         <meta name="projection" content="ATLAS_POLAR_MAP"/>
         <link rel="zoomin" href="/experiments/linking/features/canada.mapml" type="text/mapml" />
         <link rel="zoomout" href="asdi-changeProjection.mapml" type="text/mapml" />
-    </head>        
+    </map-head>        
     <body>
       <!-- 
            That this file can be viewed on a map that defines the ATLAS_POLAR_MAP

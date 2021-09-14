@@ -1,12 +1,12 @@
 <mapml- lang="en">
-  <head>
+  <map-head>
     <title>The Man With Two Hats</title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
     <meta charset="utf-8"/>
     <meta name="projection" content="OSMTILE"/>
     <meta name="cs" content="gcrs"/>
     <link rel="license" href="foo" title="Foo © Natural Resources Canada"/>
-  </head>
+  </map-head>
   <body>
     <feature id="aPoint">
       <properties>

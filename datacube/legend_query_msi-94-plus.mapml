@@ -1,9 +1,9 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <map-head>
     <title>Legend</title>
     <meta charset="utf-8" />
     <meta name="projection" content="CBMTILE"/>
-  </head>
+  </map-head>
   <body>
     <feature>
       <featurecaption>Legend</featurecaption>

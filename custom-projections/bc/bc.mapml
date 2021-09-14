@@ -1,5 +1,5 @@
 <mapml- lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+  <map-head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/mapml"/>
     <title>British Columbia Albers base map</title>
@@ -7,7 +7,7 @@
     <meta name="cs" content="gcrs"/>
     <link rel="license" title="Government of British Columbia" href="https://maps.gov.bc.ca/arcserver/rest/services/province/albers_cache/MapServer/wmts/"/>
     <link rel="zoomout" href="/experiments/linking/features/canada.mapml" />
-  </head>
+  </map-head>
   <body>
     <extent units="BCTILE">
       <input type="zoom" name="z" min="3" max="11" value="3"/>
