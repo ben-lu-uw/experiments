@@ -7,7 +7,7 @@
     <meta name="extent" content="top-left-easting=1230415.67, top-left-northing=-70161.76, bottom-right-easting=1656326.24, bottom-right-northing=-293265.51"/>
     <link href="http://open.canada.ca/en/open-government-licence-canada" rel="license" title="Open Government License"/>
   </map-head>
-  <body>
+  <map-body>
       <extent units="CBMTILE">
         <input name="z" type="zoom" min="0" max="17"/>
         <input name="y" type="location" units="tilematrix" axis="row"/>
@@ -189,5 +189,5 @@
       </properties>
     </feature>
 
-  </body>
+  </map-body>
 </mapml->

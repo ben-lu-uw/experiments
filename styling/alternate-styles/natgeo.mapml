@@ -8,12 +8,12 @@
     <link rel="style" title="Satellite Imagery with place names" href="labelled_imagery.mapml"/>
     <link rel="style" title="Satellite Imagery" href="imagery.mapml"/>
   </map-head>
-  <body>
+  <map-body>
     <extent units="OSMTILE">
       <input name="TileMatrix" type="zoom" value="18" min="0" max="18"/>
       <input name="TileCol" type="location" units="tilematrix" axis="column" min="0" max="262144"/>
       <input name="TileRow" type="location" units="tilematrix" axis="row" min="0" max="262144"/>
       <link rel="tile" tref="https://server.arcgisonline.com/arcgis/rest/services/NatGeo_World_Map/MapServer/WMTS/tile/1.0.0/NatGeo_World_Map/default/default028mm/{TileMatrix}/{TileRow}/{TileCol}.jpg"/>
     </extent>
-  </body>
+  </map-body>
 </mapml->

@@ -7,7 +7,7 @@
       <meta name="projection" content="OSMTILE"/>
       <meta name="cs" content="pcrs"/>
    </map-head>
-   <body>
+   <map-body>
       <feature id="fclass.68" class="fclass">
          <geometry>
             <multipolygon>
@@ -267,5 +267,5 @@
             </table>
          </properties>
       </feature>
-   </body>
+   </map-body>
 </mapml->

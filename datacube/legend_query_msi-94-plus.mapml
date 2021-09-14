@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="projection" content="CBMTILE"/>
   </map-head>
-  <body>
+  <map-body>
     <feature>
       <featurecaption>Legend</featurecaption>
       <properties>
@@ -21,6 +21,6 @@
         </table>
       </properties>
     </feature>
-  </body>
+  </map-body>
 </mapml->
 

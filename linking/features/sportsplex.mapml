@@ -7,7 +7,7 @@
     <meta content="text/mapml" http-equiv="Content-Type"/>
     <link href="https://www.arcgis.com/home/item.html?id=4be6c94b65ee408999d2d4483a30febf" rel="license" title="© Salt Lake County Assessor"/>
   </map-head>
-  <body>
+  <map-body>
     <extent units="CBMTILE">
       <input name="z" type="zoom" min="18" max="24"/>
       <input name="xmin" type="location" units="pcrs" position="top-left" axis="easting" />
@@ -3699,5 +3699,5 @@
                 </table>
             </properties>
         </feature>
-  </body>
+  </map-body>
 </mapml->

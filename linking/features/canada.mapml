@@ -15,7 +15,7 @@
             .yk { fill: #ebc798; stroke: #d0a368; } .nwt { fill: #e6e6fa; stroke: #cdcdde; } .nt { fill: #ffdeb2; stroke: #e6c8a1; }
         </style>
     </map-head>
-    <body>
+    <map-body>
       <extent units="CBMTILE">
         <input name="z" type="zoom" value="17" min="0" max="17"/>
         <input name="y" type="location" units="tilematrix" axis="row" min="29750" max="34475"/>
@@ -2065,5 +2065,5 @@
                 </table>
             </properties>
         </feature>
-    </body>
+    </map-body>
 </mapml->
