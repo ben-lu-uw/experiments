@@ -1,7 +1,7 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
   <map-head>
     <meta charset="utf-8"/>
-    <title>LHIN</title>
+    <map-title>LHIN</map-title>
     <meta name="cs" content="pcrs"/>
     <meta name="projection" content="CBMTILE"/>
     <meta name="extent" content="top-left-easting=1230415.67, top-left-northing=-70161.76, bottom-right-easting=1656326.24, bottom-right-northing=-293265.51"/>

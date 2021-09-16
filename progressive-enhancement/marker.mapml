@@ -1,6 +1,6 @@
 <mapml- lang="en">
   <map-head>
-    <title>The Man With Two Hats</title>
+    <map-title>The Man With Two Hats</map-title>
     <meta http-equiv="Content-Type" content="text/mapml"/>
     <meta charset="utf-8"/>
     <meta name="projection" content="OSMTILE"/>

@@ -1,6 +1,6 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
   <map-head>
-    <title>Fictitious building interior (relocated)</title>
+    <map-title>Fictitious building interior (relocated)</map-title>
     <meta charset="utf-8"/>
     <meta name="projection" content="CBMTILE"/>
     <meta name="cs" content="pcrs"/>

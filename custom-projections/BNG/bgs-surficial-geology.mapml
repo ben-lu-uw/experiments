@@ -1,7 +1,7 @@
 <mapml- lang="en"  xmlns="http://www.w3.org/1999/xhtml">
   <map-head>
     <meta charset="utf-8"/>
-    <title>Surficial Geology - British Geological Survey</title>
+    <map-title>Surficial Geology - British Geological Survey</map-title>
     <meta name="projection" content="BNG"/>
     <meta name="zoom" content="min=5,max=12" />
 <!--    <meta name="extent" content="top-left-easting=1188042.41,top-left-northing=388313.19,bottom-right-easting=1200891.70,bottom-right-northing=379439.25"/>-->

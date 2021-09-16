@@ -1,6 +1,6 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
   <map-head>
-    <title>Arctic SDI for Iceland</title>
+    <map-title>Arctic SDI for Iceland</map-title>
     <meta charset="UTF-8"/>
     <meta content="text/mapml" http-equiv="Content-Type"/>
     <meta name="projection" content="EPSG3574"/>

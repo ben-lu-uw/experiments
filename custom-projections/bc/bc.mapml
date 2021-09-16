@@ -2,7 +2,7 @@
   <map-head>
     <meta charset="utf-8"/>
     <meta http-equiv="Content-Type" content="text/mapml"/>
-    <title>British Columbia Albers base map</title>
+    <map-title>British Columbia Albers base map</map-title>
     <meta name="projection" content="BCTILE"/>
     <meta name="cs" content="gcrs"/>
     <link rel="license" title="Government of British Columbia" href="https://maps.gov.bc.ca/arcserver/rest/services/province/albers_cache/MapServer/wmts/"/>

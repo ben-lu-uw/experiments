@@ -1,6 +1,6 @@
 <mapml- 
     <map-head>
-      <title>World Countries - WGS84</title>
+      <map-title>World Countries - WGS84</map-title>
       <meta charset="utf-8" />
       <meta name="zoom" content="min=0,max=6" />
       <link rel="stylesheet" href="../vector-tile.css" />

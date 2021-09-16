@@ -1,6 +1,6 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
     <map-head>
-        <title>Atlas of Canada Polar Wall Map with Annotation</title>
+        <map-title>Atlas of Canada Polar Wall Map with Annotation</map-title>
         <meta charset="utf-8" />
         <meta content="text/mapml" http-equiv="Content-Type" />
         <link rel="license" title="Canadian Federal Geospatial Platform" href="https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/NCR_RCN/MapServer/"></link>

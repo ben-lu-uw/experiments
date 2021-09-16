@@ -1,6 +1,6 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
   <map-head xmlns:html="http://www.w3.org/1999/xhtml">
-    <title>Russian Federation Arctic SDI Contribution</title>
+    <map-title>Russian Federation Arctic SDI Contribution</map-title>
     <meta charset="UTF-8"/>
     <meta content="text/mapml" http-equiv="Content-Type"/>
     <meta name="extent" content="top-left-easting=-12618539.76,top-left-northing=12618539.76,bottom-right-easting=12530838.03,bottom-right-northing=-12618539.76"/>
