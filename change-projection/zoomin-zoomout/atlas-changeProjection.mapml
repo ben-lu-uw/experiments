@@ -1,10 +1,10 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
     <map-head>
-        <meta charset="utf-8" />
+        <map-meta charset="utf-8"></map-meta>
         <map-title>Atlas of Canada Polar Wall Map</map-title>
-        <meta content="text/mapml" http-equiv="Content-Type" />
+        <map-meta content="text/mapml" http-equiv="Content-Type" />
         <link rel="license" title="Canadian Federal Geospatial Platform" href="https://geoappext.nrcan.gc.ca/arcgis/rest/services/FGP/NCR_RCN/MapServer/"></link>
-        <meta name="projection" content="ATLAS_POLAR_MAP"/>
+        <map-meta name="projection" content="ATLAS_POLAR_MAP"/>
         <link rel="zoomin" href="/experiments/linking/features/canada.mapml" type="text/mapml" />
         <link rel="zoomout" href="asdi-changeProjection.mapml" type="text/mapml" />
     </map-head>        

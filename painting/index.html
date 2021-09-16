@@ -26,13 +26,13 @@
         <li>Making whole features into map links: &lt;geometry&gt;&lt;map-a href="..."&gt;...&lt;/map-a&gt;&lt;/geometry&gt;</li>
         <li>Linking to a location within the current map using a URL fragment like href="#zoom,longitude,latitude"</li>
         <li>Different representations of the same feature at different zoom levels / scales.</li>
-        <li>Declarative scaling of features and tiles beyond their 'native' zoom level, to support extremely responsive images (&lt;meta name="zoom" content="min=0,max=7"&gt;)</li>
+        <li>Declarative scaling of features and tiles beyond their 'native' zoom level, to support extremely responsive images (&lt;map-meta name="zoom" content="min=0,max=7"&gt;)</li>
         <li>Default link style for map-a element (hyperlink <a href="#">blue</a>)</li>
         <li>Support for the <a href="https://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">tms</a> link attribute: &lt;link rel="tile" tms tref="..."&gt;</li>
       </ul>
       <mapml-viewer projection="WGS84" zoom="2" lon="-111.062839" lat="-8.059046" controls>
         <layer- label="Painting" checked>
-          <meta name="zoom" content="min=0,max=7">
+          <map-meta name="zoom" content="min=0,max=7">
           <map-extent units="WGS84">
               <input name="zoomLevel" type="zoom" value="1" min="0" max="4"/>
               <input name="row" type="location" axis="row" units="tilematrix" min="0" max="2"/>
@@ -41,7 +41,7 @@
           </map-extent>
           </layer->
           <layer- label="People" checked>
-            <meta name="projection" content="WGS84">
+            <map-meta name="projection" content="WGS84">
             <feature id="girl2" class="child" zoom="2">
               <featurecaption>Girl - zoom=2</featurecaption>
               <geometry>

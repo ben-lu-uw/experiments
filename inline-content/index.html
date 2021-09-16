@@ -21,8 +21,8 @@
         
       <p>This leverages default values for, for example, projection (WGS84).  Further, we need to think about how an HTML author would be
       required to mark up extent information in order to control the scales at which a layer should be enabled.  We've opted for allowing
-      the &lt;meta&gt; element for this purpose; it's as though it was a server-side MapML document with no server smarts (no extent element),
-      just manually marked up with the &lt;meta&gt; element.</p>
+      the &lt;map-meta&gt; element for this purpose; it's as though it was a server-side MapML document with no server smarts (no extent element),
+      just manually marked up with the &lt;map-meta&gt; element.</p>
       
       <p>There's lots left to do here, here's my list:</p>
       <ul>
@@ -42,8 +42,8 @@
        &lt;!-- in HTML the meta element is void (no closing tag), and since this is 
              being parsed by the HTML parser, we should be able to get away with 
              that when including features in "HTML" content --&gt;
-        &lt;meta name="zoom" content="min=14,max=18"&gt;
-        &lt;meta name="extent" content="xmin=-76,ymin=45,xmax=-73,ymax=46"&gt;
+        &lt;map-meta name="zoom" content="min=14,max=18"&gt;
+        &lt;map-meta name="extent" content="xmin=-76,ymin=45,xmax=-73,ymax=46"&gt;
         &lt;feature&gt;&lt;properties&gt;&lt;name&gt;Canada Centre for Mapping and Earth Observation&lt;/name&gt;&lt;/properties&gt;&lt;geometry&gt;&lt;Point&gt;&lt;coordinates&gt;-75.705961 45.398511&lt;/coordinates&gt;&lt;/Point&gt;&lt;/geometry&gt;&lt;/feature&gt;
       &lt;/layer-&gt;
       &lt;-- ommitting line and polygon markup for brevity. Note that you get a nasty FOUC (Flash Of Unstyled Content) in IE --&gt;
@@ -68,10 +68,10 @@
             stroke: #f9b21c;
           }
         </style>
-        <meta name="projection" content="CBMTILE">
-        <meta name="zoom" content="min=14,max=18">
-        <meta name="extent" content="top-left-longitude=-76,top-left-latitude=45,bottom-right-longitude=-73,bottom-right-latitude=46"> 
-        <meta name="cs" content="gcrs">
+        <map-meta name="projection" content="CBMTILE">
+        <map-meta name="zoom" content="min=14,max=18">
+        <map-meta name="extent" content="top-left-longitude=-76,top-left-latitude=45,bottom-right-longitude=-73,bottom-right-latitude=46"> 
+        <map-meta name="cs" content="gcrs">
         <feature>
           <featurecaption>Booth Street</featurecaption>
           <properties>
@@ -95,10 +95,10 @@
             stroke: black;
           }
         </style>
-        <meta name="projection" content="CBMTILE">
-        <meta name="zoom" content="min=14,max=18">
-        <meta name="extent" content="top-left-longitude=-76,top-left-latitude=45,bottom-right-longitude=-73,bottom-right-latitude=46"> 
-        <meta name="cs" content="gcrs">        
+        <map-meta name="projection" content="CBMTILE">
+        <map-meta name="zoom" content="min=14,max=18">
+        <map-meta name="extent" content="top-left-longitude=-76,top-left-latitude=45,bottom-right-longitude=-73,bottom-right-latitude=46"> 
+        <map-meta name="cs" content="gcrs">        
         <feature>
           <featurecaption>Canada's CGDI</featurecaption>
           <properties><a href="https://www.nrcan.gc.ca/science-and-data/science-and-research/earth-sciences/geomatics/canadas-spatial-data-infrastructure/10783">Canada Centre for Mapping and Earth Observation</a></properties>
@@ -114,10 +114,10 @@
             stroke: #0591bb;
           }
         </style>
-        <meta name="projection" content="CBMTILE">
-        <meta name="zoom" content="min=14,max=22">
-        <meta name="extent" content="top-left-longitude=-75.70522069931032,top-left-latitude=45.393552994546624,bottom-right-longitude=-75.69988310337068,bottom-right-latitude=45.39590736566621">
-        <meta name="cs" content="gcrs">
+        <map-meta name="projection" content="CBMTILE">
+        <map-meta name="zoom" content="min=14,max=22">
+        <map-meta name="extent" content="top-left-longitude=-75.70522069931032,top-left-latitude=45.393552994546624,bottom-right-longitude=-75.69988310337068,bottom-right-latitude=45.39590736566621">
+        <map-meta name="cs" content="gcrs">
         <feature>
           <featurecaption>Dows Lake</featurecaption>
           <properties>

@@ -1,13 +1,13 @@
 <mapml- xmlns="http://www.w3.org/1999/xhtml">
     <map-head>
         <map-title>Restaurants</map-title>
-        <meta charset="utf-8" />
-        <meta content="text/mapml" http-equiv="Content-Type" />
+        <map-meta charset="utf-8" />
+        <map-meta content="text/mapml" http-equiv="Content-Type" />
         <link rel="license" href="http://opendatacommons.org/licenses/odbl/1-0/" title="© OpenStreetMap and contributors" />
-        <meta name="projection" content="CBMTILE"/>
-        <meta name="zoom" content="min=0,max=22,value=3" />
-        <meta name="cs" content="gcrs" />
-        <meta name="extent" content="top-left-easting=1509080.1964270622,top-left-northing=-169400.558801122,bottom-right-easting=1512094.3357886747,bottom-right-northing=-172702.5654051304" />
+        <map-meta name="projection" content="CBMTILE"/>
+        <map-meta name="zoom" content="min=0,max=22,value=3" />
+        <map-meta name="cs" content="gcrs" />
+        <map-meta name="extent" content="top-left-easting=1509080.1964270622,top-left-northing=-169400.558801122,bottom-right-easting=1512094.3357886747,bottom-right-northing=-172702.5654051304" />
     </map-head>
     <map-body>
         <feature id="restaurant_point.77" class="restaurant_point">

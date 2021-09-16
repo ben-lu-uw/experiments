@@ -103,7 +103,7 @@
     <!-- when using  -->
     <mapml-viewer zoom="0" lat="54.41338" lon="-3.19995" controls>
       <layer- label="OS Roads tile map in BNG custom projection" checked>
-        <meta name="projection" content="BNG">
+        <map-meta name="projection" content="BNG">
         <map-extent units="BNG">
           <input name="z" type="zoom" min="0" max="9"/>
           <input name="y" type="location" units="tilematrix" axis="row" />
@@ -113,8 +113,8 @@
       </layer->
       <layer- checked src="bgs-surficial-geology.mapml"></layer->
       <layer- label="BNG Shrink/Swell WMS" >
-        <meta name="projection" content="BNG">
-        <meta name="extent" content="top-left-easting=54224.000100,top-left-northing=5192.999900,bottom-right-easting=655627.000000,bottom-right-northing=1220319.000000">
+        <map-meta name="projection" content="BNG">
+        <map-meta name="extent" content="top-left-easting=54224.000100,top-left-northing=5192.999900,bottom-right-easting=655627.000000,bottom-right-northing=1220319.000000">
         <map-extent units="BNG">
             <input name="xmin" type="location" rel="map" position="top-left" axis="easting" units="pcrs" min="240755" max="261199" />
             <input name="ymin" type="location" rel="map" position="bottom-left" axis="northing" units="pcrs" min="628735" max="658452" />

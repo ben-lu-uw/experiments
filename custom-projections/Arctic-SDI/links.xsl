@@ -18,9 +18,9 @@
   </xsl:template>
 <!--  <xsl:template match="h:link[@projection]"/>-->
   <xsl:template match="h:meta[@name='projection']">
-    <meta name="projection">
+    <map-meta name="projection">
       <xsl:attribute name="content">EPSG<xsl:value-of select="substring-after(@content,'EPSG:')"/></xsl:attribute>
-    </meta>
+    </map-meta>
     
   </xsl:template>
   <xsl:template match="h:body">
