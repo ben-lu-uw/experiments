@@ -25,7 +25,7 @@
   </xsl:template>
   <xsl:template match="h:body">
     <xsl:copy>
-        <extent>
+        <map-extent>
           <xsl:attribute name="units">EPSG<xsl:value-of select="substring-after(//h:meta[@name='projection']/@content,'EPSG:')"></xsl:value-of></xsl:attribute>
           <input type="zoom" name="TileMatrix" min="0" max="11" value="0"/>
           <input type="location" name="TileCol" axis="column" units="tilematrix" min="0" max="1"/>
@@ -33,7 +33,7 @@
           <link rel="tile">
             <xsl:attribute name="tref">http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/<xsl:value-of select="substring-after(//h:meta[@name='projection']/@content,'EPSG:')"></xsl:value-of>/{TileMatrix}/{TileRow}/{TileCol}.png</xsl:attribute>
           </link>
-        </extent>
+        </map-extent>
       <xsl:apply-templates select="node() | @*"/>
     </xsl:copy>
   </xsl:template>

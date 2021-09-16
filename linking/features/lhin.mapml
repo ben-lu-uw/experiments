@@ -8,12 +8,12 @@
     <link href="http://open.canada.ca/en/open-government-licence-canada" rel="license" title="Open Government License"/>
   </map-head>
   <map-body>
-      <extent units="CBMTILE">
+      <map-extent units="CBMTILE">
         <input name="z" type="zoom" min="0" max="17"/>
         <input name="y" type="location" units="tilematrix" axis="row"/>
         <input name="x" type="location" units="tilematrix" axis="column"/>
         <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer/tile/{z}/{y}/{x}?m4h=t"/>
-      </extent>
+      </map-extent>
     <feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
       <featurecaption>Champlain</featurecaption>
       <geometry>

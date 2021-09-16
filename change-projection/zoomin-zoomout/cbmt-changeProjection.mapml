@@ -7,11 +7,11 @@
     <link rel="zoomout" href="/experiments/linking/features/canada.mapml" type="text/mapml"/> 
   </map-head>
   <map-body>
-    <extent units="CBMTILE" >
+    <map-extent units="CBMTILE" >
       <input name="z" type="zoom" min="6" max="8"/>
       <input name="y" type="location" units="tilematrix" axis="row"/>
       <input name="x" type="location" units="tilematrix" axis="column"/>
       <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer/tile/{z}/{y}/{x}?m4h=t" />
-    </extent>
+    </map-extent>
   </map-body>
 </mapml->
