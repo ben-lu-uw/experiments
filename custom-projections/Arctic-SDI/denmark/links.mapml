@@ -23,13 +23,13 @@
   </map-head>
   <map-body xmlns:html="http://www.w3.org/1999/xhtml">
     <map-extent units="EPSG3575">
-      <input type="zoom" name="TileMatrix" min="0" max="11" value="0"/>
-      <input type="location" name="TileCol" axis="column" units="tilematrix" min="0" max="1"/>
-      <input type="location" name="TileRow" axis="row" units="tilematrix" min="0" max="1"/>
+      <map-input type="zoom" name="TileMatrix" min="0" max="11" value="0"/>
+      <map-input type="location" name="TileCol" axis="column" units="tilematrix" min="0" max="1"/>
+      <map-input type="location" name="TileRow" axis="row" units="tilematrix" min="0" max="1"/>
       <link rel="tile" tref="http://basemap.arctic-sdi.org/mapcache/wmts/1.0.0/arctic_cascading/default/3575/{TileMatrix}/{TileRow}/{TileCol}.png"/>
     </map-extent>
-    <feature id="russia" class="asdi-countries">
-      <featurecaption>Russia</featurecaption>
+    <map-feature id="russia" class="asdi-countries">
+      <map-featurecaption>Russia</map-featurecaption>
       <geometry>
         <map-a href="russia/links.mapml">
           <multipolygon>
@@ -694,9 +694,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="norway" class="asdi-countries">
-      <featurecaption>Norway</featurecaption>
+    </map-feature>
+    <map-feature id="norway" class="asdi-countries">
+      <map-featurecaption>Norway</map-featurecaption>
       <geometry>
         <map-a href="norway/links.mapml#4,15.136009,69.955797">
           <multipolygon>
@@ -1079,9 +1079,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="sweden" class="asdi-countries">
-      <featurecaption>Sweden</featurecaption>
+    </map-feature>
+    <map-feature id="sweden" class="asdi-countries">
+      <map-featurecaption>Sweden</map-featurecaption>
       <geometry>
         <map-a href="sweden/links.mapml#4,18.5,63.1">
           <multipolygon>
@@ -1227,9 +1227,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="finland" class="asdi-countries">
-      <featurecaption>Finland</featurecaption>
+    </map-feature>
+    <map-feature id="finland" class="asdi-countries">
+      <map-featurecaption>Finland</map-featurecaption>
       <geometry>
         <map-a href="finland/links.mapml#5,24.193257,64.918067">
           <multipolygon>
@@ -1378,9 +1378,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="denmark" class="asdi-countries">
-      <featurecaption>Denmark</featurecaption>
+    </map-feature>
+    <map-feature id="denmark" class="asdi-countries">
+      <map-featurecaption>Denmark</map-featurecaption>
       <geometry>
           <multipolygon>
             <polygon>
@@ -1446,9 +1446,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="usa" class="asdi-countries">
-      <featurecaption>United States of America</featurecaption>
+    </map-feature>
+    <map-feature id="usa" class="asdi-countries">
+      <map-featurecaption>United States of America</map-featurecaption>
       <geometry>
         <map-a href="usa/links.mapml">
           <multipolygon>
@@ -2507,9 +2507,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="canada" class="asdi-countries">
-      <featurecaption>Canada</featurecaption>
+    </map-feature>
+    <map-feature id="canada" class="asdi-countries">
+      <map-featurecaption>Canada</map-featurecaption>
       <geometry>
         <map-a href="canada/links.mapml">
           <multipolygon>
@@ -3762,9 +3762,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="greenland" class="asdi-countries">
-      <featurecaption>Greenland</featurecaption>
+    </map-feature>
+    <map-feature id="greenland" class="asdi-countries">
+      <map-featurecaption>Greenland</map-featurecaption>
       <geometry>
           <multipolygon>
             <polygon>
@@ -4169,9 +4169,9 @@
           </tbody>
         </table>
       </properties>
-    </feature>
-    <feature id="iceland" class="asdi-countries">
-      <featurecaption>Iceland</featurecaption>
+    </map-feature>
+    <map-feature id="iceland" class="asdi-countries">
+      <map-featurecaption>Iceland</map-featurecaption>
       <geometry>
         <map-a href="iceland/links.mapml#5,-18.152026,64.704442">
           <multipolygon>
@@ -4209,6 +4209,6 @@
           </tbody>
         </table>
       </properties>
-    </feature>
+    </map-feature>
   </map-body>
 </mapml->

@@ -17,13 +17,13 @@
     </map-head>
     <map-body>
       <map-extent units="CBMTILE">
-        <input name="z" type="zoom" value="17" min="0" max="17"/>
-        <input name="y" type="location" units="tilematrix" axis="row" min="29750" max="34475"/>
-        <input name="x" type="location" units="tilematrix" axis="column" min="26484" max="32463"/>
+        <map-input name="z" type="zoom" value="17" min="0" max="17"/>
+        <map-input name="y" type="location" units="tilematrix" axis="row" min="29750" max="34475"/>
+        <map-input name="x" type="location" units="tilematrix" axis="column" min="26484" max="32463"/>
         <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer/tile/{z}/{y}/{x}?m4h=t"/>
       </map-extent>
-          <feature id="nl" class="canada nl">
-            <featurecaption>Newfoundland and Labrador</featurecaption>
+          <map-feature id="nl" class="canada nl">
+            <map-featurecaption>Newfoundland and Labrador</map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="#6,-57.526403664050136,53.13791890133216" target="_self">  
                 <multipolygon>
@@ -162,9 +162,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="pei" class="canada pei">
-          <featurecaption>Prince Edward Island</featurecaption>
+        </map-feature>
+        <map-feature id="pei" class="canada pei">
+          <map-featurecaption>Prince Edward Island</map-featurecaption>
           <geometry cs="gcrs">
             <map-a href="#11,-63.3312,46.46346">
                 <multipolygon>
@@ -210,9 +210,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="ns" class="canada ns">
-          <featurecaption> open page in a new tab, URL bar set to href</featurecaption>
+        </map-feature>
+        <map-feature id="ns" class="canada ns">
+          <map-featurecaption> open page in a new tab, URL bar set to href</map-featurecaption>
             <geometry cs="gcrs">
                 <map-a href="https://fletcher.novascotia.ca/DNRViewer/?viewer=Geoscience" type="text/html" target="_blank">
                   <multipolygon>
@@ -309,9 +309,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="nb" class="canada nb">
-          <featurecaption>navigate the _parent context to the URL</featurecaption>
+        </map-feature>
+        <map-feature id="nb" class="canada nb">
+          <map-featurecaption>navigate the _parent context to the URL</map-featurecaption>
             <geometry cs="gcrs">
                <map-a href="https://geonb.snb.ca/geonb/index.html" type="text/html" target="_parent">
                 <multipolygon>
@@ -375,9 +375,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="qc" class="canada qc">
-          <featurecaption>Quebec</featurecaption>
+        </map-feature>
+        <map-feature id="qc" class="canada qc">
+          <map-featurecaption>Quebec</map-featurecaption>
           <geometry cs="gcrs">
                 <multipolygon>
                     <polygon>
@@ -499,9 +499,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="on" class="canada on">
-          <featurecaption>Champlain unit - Ontario Local Health Integration Network </featurecaption>
+        </map-feature>
+        <map-feature id="on" class="canada on">
+          <map-featurecaption>Champlain unit - Ontario Local Health Integration Network </map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="/experiments/linking/features/lhin.mapml" type="text/mapml" target="_self">
                 <multipolygon>
@@ -614,11 +614,11 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="mb" class="canada mb">
-          <featurecaption>Manitoba Bedrock Groundwater Monitoring</featurecaption>
+        </map-feature>
+        <map-feature id="mb" class="canada mb">
+          <map-featurecaption>Manitoba Bedrock Groundwater Monitoring</map-featurecaption>
           <geometry cs="gcrs"> 
-            <map-a href="https://geogratis.gc.ca/mapml/en/cbmtile/bedrockgeology/#8,-98.495627,51.886702" target="_self" type="text/mapml">
+            <map-a href="/experiments/refactoring-temporary/bedrock.mapml#8,-98.495627,51.886702" target="_self" type="text/mapml">
                 <multipolygon>
                     <polygon>
                         <coordinates>-94.82341174223458 59.993517143194495 -94.70554226994255 59.32517588287061 -94.79797069848175 59.00896470503031 -94.59627331973007 58.942458250380206 -94.4303359560853 58.707080717770765 -94.21428046960918 58.80094975786788 -93.53575433455204 58.781381597044714 -93.43227800966542 58.69853268839869 -93.24142878596723 58.77750810720689 -93.16228436451202 58.72441045386685 -92.42549014151263 57.3614057322874 -92.73542666611777 56.92518903432214 -92.44320492978204 57.047274021984116 -91.96618990109575 57.05429190665768 -90.88486733249246 57.26648189440046 -89.96327445875414 57.00766134575379 -88.98649334011768 56.84704592193139 -93.6295535316506 53.75020269629366 -95.15315109617895 52.84057310608692 -95.15311594037671 49.000076723890906 -98.38909053616226 49.00007979141733 -101.36248008612951 49.00008000404354 -101.999999985906 55.812800673683725 -102.00000001273523 59.99999999807514 -98.5000000143747 60.00000000177089 -94.82341174223458 59.993517143194495</coordinates>
@@ -662,9 +662,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sk" class="canada sk">
-          <featurecaption>Saskatchewan</featurecaption>
+        </map-feature>
+        <map-feature id="sk" class="canada sk">
+          <map-featurecaption>Saskatchewan</map-featurecaption>
             <geometry cs="gcrs">
                 <multipolygon>
                     <polygon>
@@ -708,9 +708,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="ab" class="canada ab">
-          <featurecaption>Alberta</featurecaption>
+        </map-feature>
+        <map-feature id="ab" class="canada ab">
+          <map-featurecaption>Alberta</map-featurecaption>
           <geometry cs="gcrs">
                 <multipolygon>
                     <polygon>
@@ -754,9 +754,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="bc" class="canada bc">
-          <featurecaption>British Columbia base map</featurecaption>
+        </map-feature>
+        <map-feature id="bc" class="canada bc">
+          <map-featurecaption>British Columbia base map</map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="/experiments/custom-projections/bc/bc.mapml#3,-124.875482,54.209926" target="_parent">
                 <multipolygon>
@@ -1093,9 +1093,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="yk" class="canada yk">
-          <featurecaption>Arctic SDI</featurecaption>
+        </map-feature>
+        <map-feature id="yk" class="canada yk">
+          <map-featurecaption>Arctic SDI</map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="/experiments/custom-projections/Arctic-SDI/#4,-98.303764,69.538105" type="text/html" target="_self">
                 <multipolygon>
@@ -1158,9 +1158,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="nwt" class="canada nwt">
-          <featurecaption>Arctic SDI</featurecaption>
+        </map-feature>
+        <map-feature id="nwt" class="canada nwt">
+          <map-featurecaption>Arctic SDI</map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="/experiments/custom-projections/Arctic-SDI/#4,-98.303764,69.538105"  type="text/html" target="_self">
                 <multipolygon>
@@ -1316,9 +1316,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="nt" class="canada nt">
-          <featurecaption>Arctic SDI</featurecaption>
+        </map-feature>
+        <map-feature id="nt" class="canada nt">
+          <map-featurecaption>Arctic SDI</map-featurecaption>
             <geometry cs="gcrs">
               <map-a href="/experiments/custom-projections/Arctic-SDI/#4,-98.303764,69.538105" type="text/html" target="_self">
                 <multipolygon>
@@ -2064,6 +2064,6 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
+        </map-feature>
     </map-body>
 </mapml->

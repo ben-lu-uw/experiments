@@ -9,13 +9,13 @@
   </map-head>
   <map-body>
       <map-extent units="CBMTILE">
-        <input name="z" type="zoom" min="0" max="17"/>
-        <input name="y" type="location" units="tilematrix" axis="row"/>
-        <input name="x" type="location" units="tilematrix" axis="column"/>
+        <map-input name="z" type="zoom" min="0" max="17"/>
+        <map-input name="y" type="location" units="tilematrix" axis="row"/>
+        <map-input name="x" type="location" units="tilematrix" axis="column"/>
         <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer/tile/{z}/{y}/{x}?m4h=t"/>
       </map-extent>
-    <feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
-      <featurecaption>Champlain</featurecaption>
+    <map-feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
+      <map-featurecaption>Champlain</map-featurecaption>
       <geometry>
         <map-a href="/experiments/linking/features/sportsplex.mapml#22,-75.74590432701136,45.3272171653716" type="text/mapml" target="_self">
           <multipolygon>
@@ -187,7 +187,7 @@
       <properties>
         <h2>Champlain</h2>
       </properties>
-    </feature>
+    </map-feature>
 
   </map-body>
 </mapml->

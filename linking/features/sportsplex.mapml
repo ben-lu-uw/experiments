@@ -9,17 +9,17 @@
   </map-head>
   <map-body>
     <map-extent units="CBMTILE">
-      <input name="z" type="zoom" min="18" max="24"/>
-      <input name="xmin" type="location" units="pcrs" position="top-left" axis="easting" />
-      <input name="ymin" type="location" units="pcrs" position="bottom-left" axis="northing" />
-      <input name="xmax" type="location" units="pcrs" position="top-right" axis="easting" />
-      <input name="ymax" type="location" units="pcrs" position="top-left" axis="northing" />
-      <input name="w" type="width"/>
-      <input name="h" type="height"/>
+      <map-input name="z" type="zoom" min="18" max="24"/>
+      <map-input name="xmin" type="location" units="pcrs" position="top-left" axis="easting" />
+      <map-input name="ymin" type="location" units="pcrs" position="bottom-left" axis="northing" />
+      <map-input name="xmax" type="location" units="pcrs" position="top-right" axis="easting" />
+      <map-input name="ymax" type="location" units="pcrs" position="top-left" axis="northing" />
+      <map-input name="w" type="width"/>
+      <map-input name="h" type="height"/>
       <link rel="image" tref="http://geogratis.gc.ca/maps/CBMT?SERVICE=WMS&amp;VERSION=1.1.1&amp;SRS=EPSG:3978&amp;LAYERS=CBMT&amp;BBOX={xmin},{ymin},{xmax},{ymax}&amp;REQUEST=GetMap&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;WIDTH={w}&amp;HEIGHT={h}&amp;STYLES=&amp;m4h=t"/>
     </map-extent>
-        <feature id="sportsplex-rooms.1" class="sportsplex-rooms">
-            <featurecaption>NW Stairs</featurecaption>
+        <map-feature id="sportsplex-rooms.1" class="sportsplex-rooms">
+            <map-featurecaption>NW Stairs</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -83,9 +83,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.2" class="sportsplex-rooms">
-            <featurecaption>NE Stairs</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.2" class="sportsplex-rooms">
+            <map-featurecaption>NE Stairs</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -149,9 +149,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.3" class="sportsplex-rooms">
-            <featurecaption>Elevators</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.3" class="sportsplex-rooms">
+            <map-featurecaption>Elevators</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -215,9 +215,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.4" class="sportsplex-rooms">
-            <featurecaption>Central Stairs</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.4" class="sportsplex-rooms">
+            <map-featurecaption>Central Stairs</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -281,8 +281,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.5" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.5" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -346,8 +346,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.6" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.6" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -411,8 +411,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.7" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.7" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -476,8 +476,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.8" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.8" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -541,8 +541,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.9" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.9" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -606,8 +606,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.10" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.10" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -671,8 +671,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.11" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.11" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -736,8 +736,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.12" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.12" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -801,8 +801,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.13" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.13" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -866,8 +866,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.14" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.14" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -931,8 +931,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.15" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.15" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -996,8 +996,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.16" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.16" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1061,8 +1061,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.17" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.17" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1126,8 +1126,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.18" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.18" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1191,9 +1191,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.19" class="sportsplex-rooms">
-            <featurecaption>Admin Reception</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.19" class="sportsplex-rooms">
+            <map-featurecaption>Admin Reception</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1257,8 +1257,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.20" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.20" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1322,8 +1322,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.21" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.21" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1387,8 +1387,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.22" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.22" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1452,8 +1452,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.23" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.23" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1517,8 +1517,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.24" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.24" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1582,8 +1582,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.25" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.25" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1647,8 +1647,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.26" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.26" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1712,8 +1712,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.27" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.27" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1777,8 +1777,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.28" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.28" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1842,8 +1842,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.29" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.29" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1907,8 +1907,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.30" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.30" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -1972,8 +1972,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.31" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.31" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2037,8 +2037,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.32" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.32" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2102,8 +2102,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.33" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.33" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2167,9 +2167,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.34" class="sportsplex-rooms">
-            <featurecaption>Break Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.34" class="sportsplex-rooms">
+            <map-featurecaption>Break Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2233,8 +2233,8 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.35" class="sportsplex-rooms">
+        </map-feature>
+        <map-feature id="sportsplex-rooms.35" class="sportsplex-rooms">
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2298,9 +2298,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.36" class="sportsplex-rooms">
-            <featurecaption>New</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.36" class="sportsplex-rooms">
+            <map-featurecaption>New</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2364,9 +2364,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.37" class="sportsplex-rooms">
-            <featurecaption>Administration</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.37" class="sportsplex-rooms">
+            <map-featurecaption>Administration</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2448,9 +2448,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.38" class="sportsplex-rooms">
-            <featurecaption>Attorney General</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.38" class="sportsplex-rooms">
+            <map-featurecaption>Attorney General</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2520,9 +2520,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.39" class="sportsplex-rooms">
-            <featurecaption>Communications</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.39" class="sportsplex-rooms">
+            <map-featurecaption>Communications</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2607,9 +2607,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.40" class="sportsplex-rooms">
-            <featurecaption>Comptroller</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.40" class="sportsplex-rooms">
+            <map-featurecaption>Comptroller</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2748,9 +2748,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.41" class="sportsplex-rooms">
-            <featurecaption>Comptroler&amp;apos;s Conference Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.41" class="sportsplex-rooms">
+            <map-featurecaption>Comptroler&amp;apos;s Conference Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2814,9 +2814,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.42" class="sportsplex-rooms">
-            <featurecaption>Sand Stone Conference Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.42" class="sportsplex-rooms">
+            <map-featurecaption>Sand Stone Conference Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2880,9 +2880,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.43" class="sportsplex-rooms">
-            <featurecaption>John Njord Conference Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.43" class="sportsplex-rooms">
+            <map-featurecaption>John Njord Conference Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -2946,9 +2946,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.44" class="sportsplex-rooms">
-            <featurecaption>Redwood A</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.44" class="sportsplex-rooms">
+            <map-featurecaption>Redwood A</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3012,9 +3012,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.45" class="sportsplex-rooms">
-            <featurecaption>Redwood B</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.45" class="sportsplex-rooms">
+            <map-featurecaption>Redwood B</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3078,9 +3078,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.46" class="sportsplex-rooms">
-            <featurecaption>UDOT Training Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.46" class="sportsplex-rooms">
+            <map-featurecaption>UDOT Training Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3144,9 +3144,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.47" class="sportsplex-rooms">
-            <featurecaption>Orange Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.47" class="sportsplex-rooms">
+            <map-featurecaption>Orange Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3210,9 +3210,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.48" class="sportsplex-rooms">
-            <featurecaption>Blue Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.48" class="sportsplex-rooms">
+            <map-featurecaption>Blue Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3276,9 +3276,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.49" class="sportsplex-rooms">
-            <featurecaption>Antelope</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.49" class="sportsplex-rooms">
+            <map-featurecaption>Antelope</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3342,9 +3342,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.50" class="sportsplex-rooms">
-            <featurecaption>Timpanogos</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.50" class="sportsplex-rooms">
+            <map-featurecaption>Timpanogos</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3408,9 +3408,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.51" class="sportsplex-rooms">
-            <featurecaption>Lester Wire Conference Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.51" class="sportsplex-rooms">
+            <map-featurecaption>Lester Wire Conference Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3474,9 +3474,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.52" class="sportsplex-rooms">
-            <featurecaption>Conference Room</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.52" class="sportsplex-rooms">
+            <map-featurecaption>Conference Room</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3540,9 +3540,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.53" class="sportsplex-rooms">
-            <featurecaption>Executive</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.53" class="sportsplex-rooms">
+            <map-featurecaption>Executive</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3614,9 +3614,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="sportsplex-rooms.54" class="sportsplex-rooms">
-            <featurecaption>Human Resources</featurecaption>
+        </map-feature>
+        <map-feature id="sportsplex-rooms.54" class="sportsplex-rooms">
+            <map-featurecaption>Human Resources</map-featurecaption>
             <geometry>
                 <multipolygon>
                     <polygon>
@@ -3698,6 +3698,6 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
+        </map-feature>
   </map-body>
 </mapml->

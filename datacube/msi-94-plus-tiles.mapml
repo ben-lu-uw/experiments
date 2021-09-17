@@ -9,11 +9,11 @@
   </map-head>
   <map-body>
     <map-extent units="CBMTILE">
-      <input name="z" type="zoom" value="25" min="4" max="25"/>
-      <input name="txmin" type="location" rel="tile" position="top-left" axis="easting" units="tilematrix" min="-6105785.728719063" max="6174630.753072981"/>
-      <input name="tymin" type="location" rel="tile" position="bottom-left" axis="northing" units="tilematrix" min="-1692155.9568245453" max="4482681.2054050295"/>
-      <input name="txmax" type="location" rel="tile" position="top-right" axis="easting" units="tilematrix" min="-6105785.728719063" max="6174630.753072981"/>
-      <input name="tymax" type="location" rel="tile" position="top-left" axis="northing" units="tilematrix" min="-1692155.9568245453" max="4482681.2054050295"/>
+      <map-input name="z" type="zoom" value="25" min="4" max="25"/>
+      <map-input name="txmin" type="location" rel="tile" position="top-left" axis="easting" units="tilematrix" min="-6105785.728719063" max="6174630.753072981"/>
+      <map-input name="tymin" type="location" rel="tile" position="bottom-left" axis="northing" units="tilematrix" min="-1692155.9568245453" max="4482681.2054050295"/>
+      <map-input name="txmax" type="location" rel="tile" position="top-right" axis="easting" units="tilematrix" min="-6105785.728719063" max="6174630.753072981"/>
+      <map-input name="tymax" type="location" rel="tile" position="top-left" axis="northing" units="tilematrix" min="-1692155.9568245453" max="4482681.2054050295"/>
       <select id="tie" name="time">
         <option>2000-08-15T00:00:00Z</option>
         <option>2001-08-15T00:00:00Z</option>

@@ -8,7 +8,7 @@
     <link rel="license" href="foo" title="Foo © Natural Resources Canada"/>
   </map-head>
   <map-body>
-    <feature id="aPoint">
+    <map-feature id="aPoint">
       <properties>
         <table>
           <tr>
@@ -53,7 +53,7 @@
           <coordinates>-75.705278 45.397778</coordinates>
         </point>
       </geometry>
-    </feature>
+    </map-feature>
 
   </map-body>
 </mapml->

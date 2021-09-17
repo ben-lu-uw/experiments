@@ -9,8 +9,8 @@
   </map-head>
   
   <map-body>
-    <feature id="bcgs">
-      <featurecaption>British Columbia Geological Survey</featurecaption>
+    <map-feature id="bcgs">
+      <map-featurecaption>British Columbia Geological Survey</map-featurecaption>
       <properties>
         <id>British Columbia Geological Survey</id>
       </properties>
@@ -21,6 +21,6 @@
           </point>
           </map-a>
       </geometry>
-    </feature>
+    </map-feature>
   </map-body>
 </mapml->

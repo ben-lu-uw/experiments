@@ -5,8 +5,8 @@
     <map-meta name="projection" content="CBMTILE"/>
   </map-head>
   <map-body>
-    <feature>
-      <featurecaption>Legend</featurecaption>
+    <map-feature>
+      <map-featurecaption>Legend</map-featurecaption>
       <properties>
         <table>
           <th>Meaning</th><th>Symbol</th>
@@ -20,7 +20,7 @@
           </tr>
         </table>
       </properties>
-    </feature>
+    </map-feature>
   </map-body>
 </mapml->
 

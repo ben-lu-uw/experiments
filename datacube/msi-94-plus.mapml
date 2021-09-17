@@ -9,13 +9,13 @@
   </map-head>
   <map-body>
     <map-extent units="CBMTILE">
-      <input name="z" type="zoom" value="25" min="4" max="25"/>
-      <input name="xmin" type="location" rel="map" position="top-left" axis="easting" units="pcrs" min="-6105785.728719063" max="6174630.753072981"/>
-      <input name="ymin" type="location" rel="map" position="bottom-left" axis="northing" units="pcrs" min="-1692155.9568245453" max="4482681.2054050295"/>
-      <input name="xmax" type="location" rel="map" position="top-right" axis="easting" units="pcrs" min="-6105785.728719063" max="6174630.753072981"/>
-      <input name="ymax" type="location" rel="map" position="top-left" axis="northing" units="pcrs" min="-1692155.9568245453" max="4482681.2054050295"/>
-      <input name="w" type="width" min="0" max="10000"/>
-      <input name="h" type="height" min="0" max="10000"/>
+      <map-input name="z" type="zoom" value="25" min="4" max="25"/>
+      <map-input name="xmin" type="location" rel="map" position="top-left" axis="easting" units="pcrs" min="-6105785.728719063" max="6174630.753072981"/>
+      <map-input name="ymin" type="location" rel="map" position="bottom-left" axis="northing" units="pcrs" min="-1692155.9568245453" max="4482681.2054050295"/>
+      <map-input name="xmax" type="location" rel="map" position="top-right" axis="easting" units="pcrs" min="-6105785.728719063" max="6174630.753072981"/>
+      <map-input name="ymax" type="location" rel="map" position="top-left" axis="northing" units="pcrs" min="-1692155.9568245453" max="4482681.2054050295"/>
+      <map-input name="w" type="width" min="0" max="10000"/>
+      <map-input name="h" type="height" min="0" max="10000"/>
       <select id="tie" name="time">
         <option>2000-08-15T00:00:00Z</option>
         <option>2001-08-15T00:00:00Z</option>

@@ -10,8 +10,8 @@
         <map-meta name="extent" content="top-left-easting=1509080.1964270622,top-left-northing=-169400.558801122,bottom-right-easting=1512094.3357886747,bottom-right-northing=-172702.5654051304" />
     </map-head>
     <map-body>
-        <feature id="restaurant_point.77" class="restaurant_point">
-          <featurecaption>Hung Sum Restaurant</featurecaption>
+        <map-feature id="restaurant_point.77" class="restaurant_point">
+          <map-featurecaption>Hung Sum Restaurant</map-featurecaption>
             <geometry>
                 <point>
                         <coordinates>-75.71543400037297 45.40819502909854</coordinates>
@@ -49,9 +49,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_point.2" class="restaurant_point">
-          <featurecaption>Big Daddy's</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_point.2" class="restaurant_point">
+          <map-featurecaption>Big Daddy's</map-featurecaption>
             <geometry>
                 <point>
                   <coordinates>-75.6902755031953 45.41868067160079</coordinates>
@@ -89,9 +89,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_point.9" class="restaurant_point">
-          <featurecaption>Hareg Cafe &amp; Variety</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_point.9" class="restaurant_point">
+          <map-featurecaption>Hareg Cafe &amp; Variety</map-featurecaption>
             <geometry>
               <point>
                 <coordinates>-75.69108408413759 45.407905135087496</coordinates>
@@ -129,9 +129,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_point.13" class="restaurant_point">
-          <featurecaption>Phucket Royal</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_point.13" class="restaurant_point">
+          <map-featurecaption>Phucket Royal</map-featurecaption>
             <geometry>
               <point>
                 <coordinates>-75.70786179432208 45.410746385011166</coordinates>
@@ -169,9 +169,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_point.18" class="restaurant_point">
-          <featurecaption>Sushi 88</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_point.18" class="restaurant_point">
+          <map-featurecaption>Sushi 88</map-featurecaption>
             <geometry>
               <point>
                 <coordinates>-75.70642921479893 45.41108327733854</coordinates>
@@ -241,9 +241,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_polygon.2" class="restaurant_polygon">
-          <featurecaption>Banditos</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_polygon.2" class="restaurant_polygon">
+          <map-featurecaption>Banditos</map-featurecaption>
             <geometry>
               <point>
                   <coordinates>-75.689609 45.405803</coordinates>
@@ -285,9 +285,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_polygon.7" class="restaurant_polygon">
-          <featurecaption>India Palace</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_polygon.7" class="restaurant_polygon">
+          <map-featurecaption>India Palace</map-featurecaption>
             <geometry>
               <point>
                   <coordinates>-75.7019048 45.4191548</coordinates>
@@ -337,9 +337,9 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
-        <feature id="restaurant_polygon.20" class="restaurant_polygon">
-          <featurecaption>The Prescott</featurecaption>
+        </map-feature>
+        <map-feature id="restaurant_polygon.20" class="restaurant_polygon">
+          <map-featurecaption>The Prescott</map-featurecaption>
             <geometry>
               <point>
                   <coordinates>-75.7093517 45.4005727</coordinates>
@@ -381,6 +381,6 @@
                     </tbody>
                 </table>
             </properties>
-        </feature>
+        </map-feature>
     </map-body>
 </mapml->
