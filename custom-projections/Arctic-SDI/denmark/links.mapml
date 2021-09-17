@@ -678,7 +678,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -693,7 +693,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="norway" class="asdi-countries">
       <map-featurecaption>Norway</map-featurecaption>
@@ -1063,7 +1063,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -1078,7 +1078,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="sweden" class="asdi-countries">
       <map-featurecaption>Sweden</map-featurecaption>
@@ -1211,7 +1211,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -1226,7 +1226,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="finland" class="asdi-countries">
       <map-featurecaption>Finland</map-featurecaption>
@@ -1362,7 +1362,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -1377,7 +1377,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="denmark" class="asdi-countries">
       <map-featurecaption>Denmark</map-featurecaption>
@@ -1430,7 +1430,7 @@
             </polygon>
           </multipolygon>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -1445,7 +1445,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="usa" class="asdi-countries">
       <map-featurecaption>United States of America</map-featurecaption>
@@ -2491,7 +2491,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -2506,7 +2506,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="canada" class="asdi-countries">
       <map-featurecaption>Canada</map-featurecaption>
@@ -3746,7 +3746,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -3761,7 +3761,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="greenland" class="asdi-countries">
       <map-featurecaption>Greenland</map-featurecaption>
@@ -4153,7 +4153,7 @@
             </polygon>
           </multipolygon>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -4168,7 +4168,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
     <map-feature id="iceland" class="asdi-countries">
       <map-featurecaption>Iceland</map-featurecaption>
@@ -4193,7 +4193,7 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <table>
           <thead>
             <tr>
@@ -4208,7 +4208,7 @@
             </tr>
           </tbody>
         </table>
-      </properties>
+      </map-properties>
     </map-feature>
   </map-body>
 </mapml->

@@ -9,7 +9,7 @@
   </map-head>
   <map-body>
     <map-feature id="aPoint">
-      <properties>
+      <map-properties>
         <table>
           <tr>
             <th>code</th>
@@ -47,7 +47,7 @@
             <td>5</td>
           </tr>
         </table>
-      </properties>
+      </map-properties>
       <geometry>
         <point>
           <coordinates>-75.705278 45.397778</coordinates>

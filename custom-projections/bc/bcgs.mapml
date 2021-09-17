@@ -11,9 +11,9 @@
   <map-body>
     <map-feature id="bcgs">
       <map-featurecaption>British Columbia Geological Survey</map-featurecaption>
-      <properties>
+      <map-properties>
         <id>British Columbia Geological Survey</id>
-      </properties>
+      </map-properties>
       <geometry>
         <map-a href="#11,-123.362105,48.430882">
         <point>

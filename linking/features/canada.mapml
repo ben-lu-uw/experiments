@@ -126,7 +126,7 @@
                 </multipolygon>
               </map-a>        
               </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -161,7 +161,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="pei" class="canada pei">
           <map-featurecaption>Prince Edward Island</map-featurecaption>
@@ -174,7 +174,7 @@
                 </multipolygon>
             </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -209,7 +209,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="ns" class="canada ns">
           <map-featurecaption> open page in a new tab, URL bar set to href</map-featurecaption>
@@ -273,7 +273,7 @@
                 </multipolygon>
                 </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -308,7 +308,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="nb" class="canada nb">
           <map-featurecaption>navigate the _parent context to the URL</map-featurecaption>
@@ -339,7 +339,7 @@
                 </multipolygon>
               </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -374,7 +374,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="qc" class="canada qc">
           <map-featurecaption>Quebec</map-featurecaption>
@@ -463,7 +463,7 @@
                     </polygon>
                 </multipolygon>
           </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -498,7 +498,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="on" class="canada on">
           <map-featurecaption>Champlain unit - Ontario Local Health Integration Network </map-featurecaption>
@@ -578,7 +578,7 @@
                 </multipolygon>
             </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -613,7 +613,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="mb" class="canada mb">
           <map-featurecaption>Manitoba Bedrock Groundwater Monitoring</map-featurecaption>
@@ -626,7 +626,7 @@
                 </multipolygon>
                 </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -661,7 +661,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="sk" class="canada sk">
           <map-featurecaption>Saskatchewan</map-featurecaption>
@@ -672,7 +672,7 @@
                     </polygon>
                 </multipolygon>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -707,7 +707,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="ab" class="canada ab">
           <map-featurecaption>Alberta</map-featurecaption>
@@ -718,7 +718,7 @@
                     </polygon>
                 </multipolygon>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -753,7 +753,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="bc" class="canada bc">
           <map-featurecaption>British Columbia base map</map-featurecaption>
@@ -1057,7 +1057,7 @@
                 </multipolygon>
                  </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -1092,7 +1092,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="yk" class="canada yk">
           <map-featurecaption>Arctic SDI</map-featurecaption>
@@ -1122,7 +1122,7 @@
                 </multipolygon>
                 </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -1157,7 +1157,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="nwt" class="canada nwt">
           <map-featurecaption>Arctic SDI</map-featurecaption>
@@ -1280,7 +1280,7 @@
                 </multipolygon>
               </map-a>        
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -1315,7 +1315,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
         <map-feature id="nt" class="canada nt">
           <map-featurecaption>Arctic SDI</map-featurecaption>
@@ -2028,7 +2028,7 @@
                 </multipolygon>
               </map-a>
             </geometry>
-            <properties>
+            <map-properties>
                 <table>
                     <thead>
                         <tr>
@@ -2063,7 +2063,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </properties>
+            </map-properties>
         </map-feature>
     </map-body>
 </mapml->

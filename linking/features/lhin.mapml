@@ -184,9 +184,9 @@
           </multipolygon>
         </map-a>
       </geometry>
-      <properties>
+      <map-properties>
         <h2>Champlain</h2>
-      </properties>
+      </map-properties>
     </map-feature>
 
   </map-body>
