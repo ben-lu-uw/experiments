@@ -5,7 +5,7 @@
     <map-meta name="projection" content="CBMTILE"/>
     <map-meta name="cs" content="pcrs"/>
     <map-meta content="text/mapml" http-equiv="Content-Type"/>
-    <link href="https://www.arcgis.com/home/item.html?id=4be6c94b65ee408999d2d4483a30febf" rel="license" title="© Salt Lake County Assessor"/>
+    <map-link href="https://www.arcgis.com/home/item.html?id=4be6c94b65ee408999d2d4483a30febf" rel="license" title="© Salt Lake County Assessor"/>
   </map-head>
   <map-body>
     <map-extent units="CBMTILE">
@@ -16,7 +16,7 @@
       <map-input name="ymax" type="location" units="pcrs" position="top-left" axis="northing" />
       <map-input name="w" type="width"/>
       <map-input name="h" type="height"/>
-      <link rel="image" tref="http://geogratis.gc.ca/maps/CBMT?SERVICE=WMS&amp;VERSION=1.1.1&amp;SRS=EPSG:3978&amp;LAYERS=CBMT&amp;BBOX={xmin},{ymin},{xmax},{ymax}&amp;REQUEST=GetMap&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;WIDTH={w}&amp;HEIGHT={h}&amp;STYLES=&amp;m4h=t"/>
+      <map-link rel="image" tref="http://geogratis.gc.ca/maps/CBMT?SERVICE=WMS&amp;VERSION=1.1.1&amp;SRS=EPSG:3978&amp;LAYERS=CBMT&amp;BBOX={xmin},{ymin},{xmax},{ymax}&amp;REQUEST=GetMap&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;WIDTH={w}&amp;HEIGHT={h}&amp;STYLES=&amp;m4h=t"/>
     </map-extent>
         <map-feature id="sportsplex-rooms.1" class="sportsplex-rooms">
             <map-featurecaption>NW Stairs</map-featurecaption>
