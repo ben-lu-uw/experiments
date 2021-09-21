@@ -1,24 +1,24 @@
-<mapml xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8"/>
-    <title>LHIN</title>
-    <meta name="cs" content="pcrs"/>
-    <meta name="projection" content="CBMTILE"/>
-    <meta name="extent" content="top-left-easting=1230415.67, top-left-northing=-70161.76, bottom-right-easting=1656326.24, bottom-right-northing=-293265.51"/>
+<mapml- xmlns="http://www.w3.org/1999/xhtml">
+  <map-head>
+    <map-meta charset="utf-8"/>
+    <map-title>LHIN</map-title>
+    <map-meta name="cs" content="pcrs"/>
+    <map-meta name="projection" content="CBMTILE"/>
+    <map-meta name="extent" content="top-left-easting=1230415.67, top-left-northing=-70161.76, bottom-right-easting=1656326.24, bottom-right-northing=-293265.51"/>
     <link href="http://open.canada.ca/en/open-government-licence-canada" rel="license" title="Open Government License"/>
-  </head>
-  <body>
-      <extent units="CBMTILE">
-        <input name="z" type="zoom" min="0" max="17"/>
-        <input name="y" type="location" units="tilematrix" axis="row"/>
-        <input name="x" type="location" units="tilematrix" axis="column"/>
+  </map-head>
+  <map-body>
+      <map-extent units="CBMTILE">
+        <map-input name="z" type="zoom" min="0" max="17"/>
+        <map-input name="y" type="location" units="tilematrix" axis="row"/>
+        <map-input name="x" type="location" units="tilematrix" axis="column"/>
         <link rel="tile" tref="https://geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer/tile/{z}/{y}/{x}?m4h=t"/>
-      </extent>
-    <feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
-      <featurecaption>Champlain</featurecaption>
-      <geometry>
+      </map-extent>
+    <map-feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
+      <map-featurecaption>Champlain</map-featurecaption>
+      <map-geometry>
         <map-a href="/experiments/linking/features/sportsplex.mapml#22,-75.74590432701136,45.3272171653716" type="text/mapml" target="_self">
-          <multipolygon>
+          <map-multipolygon>
             <polygon>
               <coordinates>1559332.94849 -226542.49462 1559226.82136 -226710.73601 1558953.94261 -226939.42183 1559486.16899 -226099.84425 1559332.94849 -226542.49462</coordinates>
             </polygon>
@@ -181,13 +181,13 @@
               <coordinates>1559888.18861 -223497.0593 1559983.90178 -223184.42984 1559760.40739 -223638.04534 1559888.18861 -223497.0593</coordinates>
               <coordinates>1606556.02323 -183840.41712 1606561.80097 -183789.28487 1606433.97614 -183692.94229 1606419.47061 -183858.26283 1606556.02323 -183840.41712</coordinates>
             </polygon>
-          </multipolygon>
+          </map-multipolygon>
         </map-a>
-      </geometry>
-      <properties>
+      </map-geometry>
+      <map-properties>
         <h2>Champlain</h2>
-      </properties>
-    </feature>
+      </map-properties>
+    </map-feature>
 
-  </body>
-</mapml>
+  </map-body>
+</mapml->
