@@ -18,7 +18,7 @@
       <map-featurecaption>Champlain</map-featurecaption>
       <map-geometry>
         <map-a href="/experiments/linking/features/sportsplex.mapml#22,-75.74590432701136,45.3272171653716" type="text/mapml" target="_self">
-          <multipolygon>
+          <map-multipolygon>
             <polygon>
               <coordinates>1559332.94849 -226542.49462 1559226.82136 -226710.73601 1558953.94261 -226939.42183 1559486.16899 -226099.84425 1559332.94849 -226542.49462</coordinates>
             </polygon>
@@ -181,7 +181,7 @@
               <coordinates>1559888.18861 -223497.0593 1559983.90178 -223184.42984 1559760.40739 -223638.04534 1559888.18861 -223497.0593</coordinates>
               <coordinates>1606556.02323 -183840.41712 1606561.80097 -183789.28487 1606433.97614 -183692.94229 1606419.47061 -183858.26283 1606556.02323 -183840.41712</coordinates>
             </polygon>
-          </multipolygon>
+          </map-multipolygon>
         </map-a>
       </map-geometry>
       <map-properties>
