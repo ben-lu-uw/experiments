@@ -5,7 +5,7 @@
     <map-meta charset="utf-8"/>
     <map-meta name="projection" content="OSMTILE"/>
     <map-meta name="cs" content="gcrs"/>
-    <link rel="license" href="foo" title="Foo © Natural Resources Canada"/>
+    <map-link rel="license" href="foo" title="Foo © Natural Resources Canada"/>
   </map-head>
   <map-body>
     <map-feature id="aPoint">

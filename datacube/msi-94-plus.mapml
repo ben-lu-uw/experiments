@@ -2,10 +2,10 @@
   <map-head>
     <map-title>Permanent snow and ice (prob. 94% or more) WMS GetMap</map-title>
     <map-meta charset="utf-8"/>
-    <link href="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0" rel="license" title="Open Government License"/>
-    <link rel="legend" href="https://datacube.services.geo.ca/assets/legend/legend_msi_binary.png" sizes="150x33" height="33" width="150" title="legend" type="image/png" />
-    <link rel="self style" href="msi-94-plus.mapml" title="WMS GetMap" />
-    <link rel="style" href="msi-94-plus-tiles.mapml" title="Tiled WMS GetMap" />
+    <map-link href="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0" rel="license" title="Open Government License"/>
+    <map-link rel="legend" href="https://datacube.services.geo.ca/assets/legend/legend_msi_binary.png" sizes="150x33" height="33" width="150" title="legend" type="image/png" />
+    <map-link rel="self style" href="msi-94-plus.mapml" title="WMS GetMap" />
+    <map-link rel="style" href="msi-94-plus-tiles.mapml" title="Tiled WMS GetMap" />
   </map-head>
   <map-body>
     <map-extent units="CBMTILE">
@@ -39,8 +39,8 @@
         <option>2019-08-15T00:00:00Z</option>
         <option>2020-08-15T00:00:00Z</option>        
       </select>
-      <link tref="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetMap&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=msi-binary&amp;VERSION=1.3.0&amp;LAYERS=msi-94-or-more&amp;WIDTH={w}&amp;HEIGHT={h}&amp;CRS=EPSG:3978&amp;BBOX={xmin},{ymin},{xmax},{ymax}&amp;TIME={time}" rel="image"/>
-      <link tref="legend_query_msi-94-plus.mapml?BBOX={xmin},{ymin},{xmax},{ymax}&amp;TIME={time}" rel="query"/>
+      <map-link tref="https://datacube.services.geo.ca/ows/msi?SERVICE=WMS&amp;REQUEST=GetMap&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=msi-binary&amp;VERSION=1.3.0&amp;LAYERS=msi-94-or-more&amp;WIDTH={w}&amp;HEIGHT={h}&amp;CRS=EPSG:3978&amp;BBOX={xmin},{ymin},{xmax},{ymax}&amp;TIME={time}" rel="image"/>
+      <map-link tref="legend_query_msi-94-plus.mapml?BBOX={xmin},{ymin},{xmax},{ymax}&amp;TIME={time}" rel="query"/>
     </map-extent>
   </map-body>
 </mapml->
