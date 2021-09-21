@@ -30,7 +30,7 @@
         </map-extent>
     <map-feature id="russia" class="asdi-countries">
       <map-featurecaption>Russia</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="russia/links.mapml">
         <multipolygon>
           <polygon>
@@ -677,7 +677,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -697,7 +697,7 @@
     </map-feature>
     <map-feature id="norway" class="asdi-countries">      
       <map-featurecaption>Norway</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="norway/links.mapml#4,15.136009,69.955797">
         <multipolygon>
           <polygon>
@@ -1062,7 +1062,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -1082,7 +1082,7 @@
     </map-feature>
     <map-feature id="sweden" class="asdi-countries">
       <map-featurecaption>Sweden</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="sweden/links.mapml#4,18.5,63.1">
         <multipolygon>
           <polygon>
@@ -1210,7 +1210,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -1230,7 +1230,7 @@
     </map-feature>
     <map-feature id="finland" class="asdi-countries">
       <map-featurecaption>Finland</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="finland/links.mapml#5,24.193257,64.918067">
         <multipolygon>
           <polygon>
@@ -1361,7 +1361,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -1381,7 +1381,7 @@
     </map-feature>
     <map-feature id="denmark" class="asdi-countries">
       <map-featurecaption>Denmark</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="denmark/links.mapml#3,-20.951226,69.083556">
         <multipolygon>
           <polygon>
@@ -1431,7 +1431,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -1451,7 +1451,7 @@
     </map-feature>
     <map-feature id="usa" class="asdi-countries">
       <map-featurecaption>United States of America</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="usa/links.mapml">
           <multipolygon>
           <polygon>
@@ -2492,7 +2492,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -2512,7 +2512,7 @@
     </map-feature>
     <map-feature id="canada" class="asdi-countries">
       <map-featurecaption>Canada</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="../../change-projection/zoomin-zoomout/atlas-changeProjection.mapml#3,-95.192163,69.619312">
         <multipolygon>
           <polygon>
@@ -3747,7 +3747,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -3767,7 +3767,7 @@
     </map-feature>
     <map-feature id="greenland" class="asdi-countries">
       <map-featurecaption>Greenland</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="denmark/links.mapml#3,-20.951226,69.083556">
         <multipolygon>
           <polygon>
@@ -4156,7 +4156,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>
@@ -4176,7 +4176,7 @@
     </map-feature>
     <map-feature id="iceland" class="asdi-countries">
       <map-featurecaption>Iceland</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="iceland/links.mapml#5,-18.152026,64.704442">
         <multipolygon>
           <polygon>
@@ -4196,7 +4196,7 @@
           </polygon>
         </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <table>
           <thead>

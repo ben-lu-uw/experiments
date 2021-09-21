@@ -20,13 +20,13 @@
       <map-properties>
         <id>British Columbia Geological Survey</id>
       </map-properties>
-      <geometry>
+      <map-geometry>
         <map-a href="#11,-123.362105,48.430882">
-        <point>
+        <map-point>
           <coordinates>-123.362105 48.430882</coordinates>
-          </point>
+          </map-point>
           </map-a>
-      </geometry>
+      </map-geometry>
     </map-feature>
   </map-body>
 </mapml->

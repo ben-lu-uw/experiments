@@ -45,7 +45,7 @@
       <xsl:apply-templates select="node() | @*[local-name() != 'id'] "/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="h:geometry[ancestor::h:feature[h:featurecaption = 'United States of America']]">
+  <xsl:template match="h:map-geometry[ancestor::h:feature[h:featurecaption = 'United States of America']]">
     <xsl:copy>
       <map-a>
         <xsl:attribute name="href">usa/links.mapml</xsl:attribute>
@@ -61,7 +61,7 @@
       <xsl:apply-templates select="node() | @*[local-name() != 'id'] "/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="h:geometry">
+  <xsl:template match="h:map-geometry">
     <xsl:copy>
       <map-a>
         <xsl:attribute name="href"><xsl:value-of select="translate(../h:featurecaption, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"/>/links.mapml</xsl:attribute>

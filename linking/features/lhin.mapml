@@ -16,7 +16,7 @@
       </map-extent>
     <map-feature id="LHIN-ON-V-Simplified.11" class="LHIN-ON-V-Simplified">
       <map-featurecaption>Champlain</map-featurecaption>
-      <geometry>
+      <map-geometry>
         <map-a href="/experiments/linking/features/sportsplex.mapml#22,-75.74590432701136,45.3272171653716" type="text/mapml" target="_self">
           <multipolygon>
             <polygon>
@@ -183,7 +183,7 @@
             </polygon>
           </multipolygon>
         </map-a>
-      </geometry>
+      </map-geometry>
       <map-properties>
         <h2>Champlain</h2>
       </map-properties>

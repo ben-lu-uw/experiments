@@ -48,11 +48,11 @@
           </tr>
         </table>
       </map-properties>
-      <geometry>
-        <point>
+      <map-geometry>
+        <map-point>
           <coordinates>-75.705278 45.397778</coordinates>
-        </point>
-      </geometry>
+        </map-point>
+      </map-geometry>
     </map-feature>
 
   </map-body>
